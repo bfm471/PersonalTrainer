@@ -23,7 +23,7 @@ export default function Customers() {
     const [customers, setCustomers] = useState([]);
 
     const fetchData = () => {
-        fetch('http://traineeapp.azurewebsites.net/api/customers')
+        fetch('https://traineeapp.azurewebsites.net/api/customers')
             .then(response => response.json())
             .then(data => setCustomers(data.content))
             .catch(error => console.error(error))
