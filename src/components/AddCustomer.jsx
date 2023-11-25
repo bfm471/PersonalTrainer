@@ -35,7 +35,7 @@ export default function AddCustomer(props) {
     };
 
     const handleSave = () => {
-        saveObject(customer, 'http://traineeapp.azurewebsites.net/api/customers', 'post');
+        saveObject(customer, 'https://traineeapp.azurewebsites.net/api/customers', 'post');
         setOpen(false);
     };
     

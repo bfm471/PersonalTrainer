@@ -23,7 +23,7 @@ export default function Exercises() {
 
     const deleteExercise = id => {
         const options = { method: 'delete' }
-        const href = "http://traineeapp.azurewebsites.net/api/trainings/" + id
+        const href = "https://traineeapp.azurewebsites.net/api/trainings/" + id
         console.log(href)
 
         if (window.confirm('Delete exercise?')) {

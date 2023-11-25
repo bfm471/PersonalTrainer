@@ -42,7 +42,6 @@ export default function Customers() {
             .catch(error => console.error(error))
     }
 
-    // testaa tähän mui:n dialog alert
     const deleteCustomer = href => {
         const options = { method: 'delete' }
 

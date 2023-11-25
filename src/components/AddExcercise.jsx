@@ -32,7 +32,7 @@ export default function AddExercise(props) {
     };
 
     const handleSave = () => {
-        saveObject(exercise, 'http://traineeapp.azurewebsites.net/api/trainings', 'post')
+        saveObject(exercise, 'https://traineeapp.azurewebsites.net/api/trainings', 'post')
         handleClose
     }
 
