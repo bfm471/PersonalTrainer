@@ -3,7 +3,7 @@ import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-material.css';
 import dayjs from 'dayjs';
-import { Button, Tooltip } from '@mui/material';
+import { Tooltip } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 
 export default function Exercises() {
@@ -79,7 +79,7 @@ export default function Exercises() {
     return (
         <div>
             <div className='ag-theme-material'
-                style={{ height: "800px", width: "1400px", margin: 'auto' }}>
+                style={{ height: "1000px", width: "1600px", margin: 'auto' }}>
                 <AgGridReact
                     columnDefs={columns}
                     rowData={exercises}

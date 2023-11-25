@@ -33,7 +33,7 @@ export default function MyCalendar() {
                 events={myEventsList}
                 startAccessor="start"
                 endAccessor="end"
-                style={{ height: (window.innerHeight)*0.87, width: window.innerWidth*0.95 }}
+                style={{ height: window.innerHeight*0.87, width: window.innerWidth*0.95 }}
             />
         </div>
     )
