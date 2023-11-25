@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 
-export default function ExportCsv({ gridApi, columnKeys }) {
+export default function ExportCsv({ gridApi }) {
     const onBtnExport = useCallback(() => {
             const date = new Date();
             const dd = date.getDate();
